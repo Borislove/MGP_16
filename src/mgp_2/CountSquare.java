@@ -3,6 +3,8 @@ package mgp_2;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+// TODO: 31.03.2022  hmmmmmmmmmmmmmmmm
 public class CountSquare {
 
     static ArrayList<Integer> line_1 = new ArrayList<Integer>();
@@ -100,6 +102,8 @@ public class CountSquare {
     // 60,90,120,150,180,210,240,270,300,330,360,390,420,450,480,510
     static ArrayList<Integer> xSquare = new ArrayList<Integer>();
 
+
+    //X
     public static void addXSquarePosition() {
         int x = 60;
         for (int i = 0; i < 16; i++) {

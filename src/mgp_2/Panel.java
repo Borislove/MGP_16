@@ -140,8 +140,85 @@ public class Panel extends JPanel {
         g.fillRect(CountSquare.xSquare.get(1), 45, 30, 30);
         g.fillRect(CountSquare.xSquare.get(2), 45, 30, 30);*/
 
-        for (int i = 0; i <CountSquare.line_1.get(0) ; i++) {
-        g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+
+        // line 1
+        for (int i = 0; i < CountSquare.line_1.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+        }
+
+        // line 2    - 75
+        for (int i = 0; i < CountSquare.line_2.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 75, 30, 30);
+        }
+
+        // line 3    - 105
+        for (int i = 0; i < CountSquare.line_3.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 105, 30, 30);
+        }
+
+        // line 4    - 135
+        for (int i = 0; i < CountSquare.line_4.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 135, 30, 30);
+        }
+
+        //line 5    - 165
+        for (int i = 0; i < CountSquare.line_5.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 165, 30, 30);
+        }
+
+        //line 6    - 195
+        for (int i = 0; i < CountSquare.line_6.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 195, 30, 30);
+        }
+
+        //line 7    - 225
+        for (int i = 0; i < CountSquare.line_7.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 225, 30, 30);
+        }
+
+        //line 8    - 255
+        for (int i = 0; i < CountSquare.line_8.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 255, 30, 30);
+        }
+
+        //line 9    - 285
+        for (int i = 0; i < CountSquare.line_9.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 285, 30, 30);
+        }
+
+        //line 10    - 315
+        for (int i = 0; i < CountSquare.line_10.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 315, 30, 30);
+        }
+
+        //line 11    - 345
+        for (int i = 0; i < CountSquare.line_11.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 345, 30, 30);
+        }
+
+        //line 12    - 375
+        for (int i = 0; i < CountSquare.line_12.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 375, 30, 30);
+        }
+
+        //line 13    - 405
+        for (int i = 0; i < CountSquare.line_13.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 405, 30, 30);
+        }
+
+        //line 14    - 435
+        for (int i = 0; i < CountSquare.line_14.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 435, 30, 30);
+        }
+
+        //line 15    - 465
+        for (int i = 0; i < CountSquare.line_15.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 465, 30, 30);
+        }
+
+        //line 16    - 495
+        for (int i = 0; i < CountSquare.line_16.get(0); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 495, 30, 30);
         }
     }
 }
