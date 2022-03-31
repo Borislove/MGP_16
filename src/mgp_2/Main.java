@@ -16,6 +16,15 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        new Window();
+       new Window();
+
+
+       /* for (int i = 0; i <150 ; i++) {
+            System.out.println(RandomNumber.randomNumber());
+        }*/
+
+       //CountSquare.printListSquare();
+
+       // CountSquare.addXSquarePosition();
     }
 }
