@@ -1,6 +1,7 @@
 package mgp_2;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class CountSquare {
 
@@ -41,27 +42,58 @@ public class CountSquare {
         line_16.add(RandomNumber.randomNumber());
     }
 
-/*    public static void printListSquare(){
+    public static void printListSquare(){
         addLineSquare();
         //System.out.println(line_1.size());
 
+        System.out.print("line_1 : ");
         System.out.println(line_1.get(0));
+
+        System.out.print("line_2 : ");
         System.out.println(line_2.get(0));
+
+        System.out.print("line_3 : ");
         System.out.println(line_3.get(0));
+
+        System.out.print("line_4 : ");
         System.out.println(line_4.get(0));
+
+        System.out.print("line_5 : ");
         System.out.println(line_5.get(0));
+
+        System.out.print("line_6 : ");
         System.out.println(line_6.get(0));
+
+        System.out.print("line_7 : ");
         System.out.println(line_7.get(0));
+
+        System.out.print("line_8 : ");
         System.out.println(line_8.get(0));
+
+        System.out.print("line_9 : ");
         System.out.println(line_9.get(0));
+
+        System.out.print("line_10 : ");
         System.out.println(line_10.get(0));
+
+        System.out.print("line_11 : ");
         System.out.println(line_11.get(0));
+
+        System.out.print("line_12 : ");
         System.out.println(line_12.get(0));
+
+        System.out.print("line_13 : ");
         System.out.println(line_13.get(0));
+
+        System.out.print("line_14 : ");
         System.out.println(line_14.get(0));
+
+        System.out.print("line_15 : ");
         System.out.println(line_15.get(0));
+
+        System.out.print("line_16 : ");
         System.out.println(line_16.get(0));
-    }*/
+    }
 
 
     //координаты x
@@ -75,5 +107,18 @@ public class CountSquare {
             x += 30;
           //  System.out.println(xSquare.get(i));
         }
+
+        //перемешать позиции
+        Collections.shuffle(xSquare);
+
+        System.out.println(xSquare);
+    }
+
+
+    //вызываем квадратики - кол-во / позиции
+    public static void getSquare() {
+        CountSquare.printListSquare();
+        CountSquare.addLineSquare();
+        CountSquare.addXSquarePosition();
     }
 }

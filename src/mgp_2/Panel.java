@@ -5,6 +5,16 @@ import java.awt.*;
 
 public class Panel extends JPanel {
 
+    static int test_position = 60;
+
+   /* public static void test_2() {
+
+        for (int i = 0; i < CountSquare.xSquare.size(); i++) {
+            test_position = CountSquare.line_1.get(i);
+            System.out.println("test_position: " + CountSquare.xSquare.get(i));
+        }
+    }*/
+
 
     public void paint(Graphics g) {
 
@@ -97,14 +107,42 @@ public class Panel extends JPanel {
         //g.fillRect(300, 45, 30, 30); //9
         //g.fillRect(330, 45, 30, 30); //10
         //g.fillRect(360, 45, 30, 30); //11
-       // g.fillRect(390, 45, 30, 30); //12
-       // g.fillRect(420, 45, 30, 30); //13
-       // g.fillRect(450, 45, 30, 30); //14
+        // g.fillRect(390, 45, 30, 30); //12
+        // g.fillRect(420, 45, 30, 30); //13
+        // g.fillRect(450, 45, 30, 30); //14
         //g.fillRect(480, 45, 30, 30); //15
-      //  g.fillRect(510, 45, 30, 30); //16
+        //  g.fillRect(510, 45, 30, 30); //16
 
         //60,90,120,150,180,210,240,270,300,330,360,390,420,450,480,510
 
+
+        //первый закрашенный квадрат
+        //g.fillRect(60,45,30,30);
+
+
+        //g.fillRect(CountSquare.xSquare.get(0), 45, 30, 30);
+
+        /*for (int i = CountSquare.line_1.size(); i < CountSquare.xSquare.size() ; i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+        }
+    }*/
+
+        //размер рандомного числа
+   /*     for (int i = 0; i < CountSquare.line_1.size(); i++) {
+            g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+            i++;
+            g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+            i++;
+            g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+        }*/
+
+        /*g.fillRect(CountSquare.xSquare.get(0), 45, 30, 30);
+        g.fillRect(CountSquare.xSquare.get(1), 45, 30, 30);
+        g.fillRect(CountSquare.xSquare.get(2), 45, 30, 30);*/
+
+        for (int i = 0; i <CountSquare.line_1.get(0) ; i++) {
+        g.fillRect(CountSquare.xSquare.get(i), 45, 30, 30);
+        }
     }
 }
 

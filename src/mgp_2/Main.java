@@ -1,10 +1,13 @@
 package mgp_2;
 
+import static mgp_2.CountSquare.getSquare;
+
 public class Main {
 
     static {
         getName();
         getPackage();
+        getSquare();
     }
 
     private static void getName() {
@@ -16,15 +19,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
-       new Window();
+
+       // test_2();
+        new Window();
 
 
        /* for (int i = 0; i <150 ; i++) {
             System.out.println(RandomNumber.randomNumber());
         }*/
 
-       //CountSquare.printListSquare();
+        //CountSquare.printListSquare();
 
-       // CountSquare.addXSquarePosition();
+        //    CountSquare.addXSquarePosition();
     }
 }
