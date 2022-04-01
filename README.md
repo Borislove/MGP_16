@@ -1,9 +1,9 @@
-#MGP_16
+# MGP_16
 Mini Project
 
 Mini Generator Picture
 
-**MGP_1 output
+# MGP_1 output
 
 ![image](https://github.com/Borislove/source/blob/main/1.jpg)
 
@@ -18,7 +18,7 @@ Mini Generator Picture
 ***********************************************************************************************
 
 
-**MGP_2 output
+# MGP_2 output
 
 ![image](https://github.com/Borislove/source/blob/main/mgp_2(1).jpg)
 
